@@ -33,3 +33,4 @@ Finally restart the service once to effect the changes.
 ```
 # systemctl restart nginx 
 ```
+
