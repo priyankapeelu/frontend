@@ -9,5 +9,6 @@ module "frontend" {
   WORKSTATION_IP      = var.WORKSTATION_IP
   APP_VERSION         = var.APP_VERSION
   LB_TYPE             = "public"
+  APP_TYPE            = var.APP_TYPE
 }
 
