@@ -8,7 +8,6 @@ module "frontend" {
   APP_VERSION      = var.APP_VERSION
   LB_TYPE          = "public"
   APP_TYPE         = var.APP_TYPE
-  PROMETHEUS_IP    = var.PROMETHEUS_IP
   DESIRED_CAPACITY = var.DESIRED_CAPACITY
   MIN_SIZE         = var.MIN_SIZE
   MAX_SIZE         = var.MAX_SIZE
