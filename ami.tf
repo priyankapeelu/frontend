@@ -11,7 +11,7 @@ terraform {
 }
 
 module "ami" {
-  source      = "git::https://github.com/raghudevopsb63/tf-module-immutable-ami.git"
+  source      = "git::https://github.com/priyankapeelu/tf-module-immutable-ami.git"
   COMPONENT   = "frontend"
   APP_VERSION = var.APP_VERSION
 }
